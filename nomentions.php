@@ -10,7 +10,7 @@
  *  Plugin Name: Nomentions
  *
  *
- *  Description: Exclude links from webmentions
+ *  Description: Exclude links from sending webmentions
  *
  *  Requires: Webmention
  *
