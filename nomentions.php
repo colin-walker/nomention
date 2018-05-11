@@ -23,7 +23,7 @@
 	function nomention_links( $links, $post_id ) {
 		$post = get_post( $post_id );
 		preg_match_all('/<a[^>]+>/i',$post->post_content, $results);
-    	$mentions = '';
+    		$mentions = '';
 		foreach ($results[0] as $link) {
   			if (!strpos($link, 'class="nomention')) {
     			$mentions .= $link;
