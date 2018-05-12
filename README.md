@@ -7,6 +7,6 @@ This plugin adds a callback function to the "webmention_links" filter hook which
 
 If preferred, it could be changed to `rel="nomention` (I prefer using class as it is easier to when writing posts in multimarkdown using {.nomention} after a link.)
 
-As it stands the plugin only handles <a> tags but could be extended to over types of links such as images etc. by adding additional conditions to the regex: `(<a[^>]+>|<img[^>]+>|...)`
+As it stands the plugin only handles `<a>` tags but could be extended to over types of links such as images etc. by adding additional conditions to the regex: `(<a[^>]+>|<img[^>]+>|...)`
   
 See [this post](https://colinwalker.blog/nomention/) for the original idea.
